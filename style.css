@@ -1,14 +1,14 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(240, 236, 232);
+    background: rgb(231, 232, 247);
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;/*Met les éléments aux deux extrémités (logo à gauche, menu à droite).*/
-    background-color: rgb(248, 245, 229);
+    background-color: rgb(192, 205, 210);
     
 }
 
@@ -94,7 +94,7 @@ header{
 .partenaires{
     width: 800px;
     height: 100px;
-    background-color: rgb(248, 214, 172);
+    background-color: rgb(137, 139, 196);
     display: flex;
     text-align: center;
     align-items: center;
@@ -204,7 +204,7 @@ p {
     display: flex;
     width: 100%;
     height: auto;
-    background: #dcc7a8;
+    background: #9c88e9;
     background-size: cover;
     clip-path: polygon(2% 21%, 100% 0%, 100% 97%, 0 79%);
     padding: 200px 20px;
@@ -337,7 +337,7 @@ footer {
 
 }
 .footer-content {
-    background: #f4e0ab;
+    background: #7c8296;
     background-size: cover;
     display: flex;
     justify-content: space-around;
@@ -352,8 +352,8 @@ footer {
 }
 
 footer {
-    background-color: #e6c0a5;
-    color: rgb(18, 17, 17);
+    background-color: #737094;
+    color: rgb(249, 245, 245);
     /*padding: 20px 0;*/
     text-align: center;
     width: 100%;
@@ -372,6 +372,7 @@ footer {
 .footer-info {
     text-align: center;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .footer-info h3 {
@@ -379,11 +380,13 @@ footer {
     font-weight: bold;
     margin-bottom: 5px;
     margin-top: -15px;
+    color: #fbfaf8;
 }
 
 .footer-info p {
     font-size: 14px;
     margin-top: 10px;
+    color: #fff;
 }
 
 .footer-social {
